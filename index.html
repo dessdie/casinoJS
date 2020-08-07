@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>CASINO</title>
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+          
+
+            <div id="contenu">
+                
+                
+                
+             
+            <div id="widget"> 
+                <p id="soldeJ" style="display: block;float: left;font-size: 20px;">  </p> <p id="soldeM" style="display: block;float: right;font-size: 20px;"> </p>
+                <p id="presentation">Bienvenue Sen
+                   CASINO </p>
+                
+                <p id="resultat" style="color: blueviolet;font-size: 30px;text-align: center;">--</p>
+
+                <h1 style="text-align: center;">Parite</h1>
+                <select name="" id="choix" style="text-align: center;border-radius: 3px;display: block;height: 35px;margin-left: auto;margin-right: auto;font-size: 19px;width: 330px;">
+                <option value="pair" selected>P A I R </option>
+                <option value="impair"> I M P A I R</option>
+                <script>
+                  for(var i = 1;i<=36;i++){
+                    document.write("<option value="+i+"> "+i+"</option>") ;
+                  }
+                </script>
+                </select>
+                
+                  <h1 style="text-align: center;">Mise En Milliers De FCFA</h1>
+                <input type="number" id="mise" style="text-align: center;border-radius: 5px;display: block;height: 25px;margin-left: auto;margin-right: auto;font-size: 25px;">
+               
+                <input type="button" value="G O" id="go" onclick="go()">
+                
+                <h1 id="statut" style="color: green;">-----</h1>
+                
+                
+                
+               
+            </div>
+             
+            
+                
+                
+            
+            
+            
+            
+            
+            </div>
+            
+            <script type="text/javascript" src="code1.js"></script>
+        </body>
+</html>
